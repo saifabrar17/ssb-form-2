@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(mountains.png) rgba(0, 0, 0, 0.6);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    background-color: #343A40;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin-left: 20px;
+    font-size: 18px;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+nav ul li span {
+    color: #67737e;
+}
+
+
+.content {
+    display: flex;
+}
+
+.content-left {
+    width: 50%;
+
+
+}
+
+.mwidthleft {
+
+    max-width: 500px;
+    margin-top: 25%;
+    margin-left: 20%;
+}
+
+.mwidthleft h3 {
+    color: white;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+.mwidthleft h3 span {
+    color: #6DBD6D;
+}
+
+.mwidthleft p {
+    color: white;
+    font-size: 19px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.mwidthleft ul li {
+    color: white;
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+.mwidthleft button {
+    background-color: #6DBD6D;
+    border: none;
+    height: 30px;
+    width: 100px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    margin-top: 10px;
+}
+
+.content-right {
+    width: 50%;
+}
+
+.mwidthright {
+    background-color: #6DBD6D;
+    max-width: 300px;
+    height: 300px;
+    padding-top: 20px;
+    margin-top: 25%;
+    margin-left: 20%;
+}
+
+.mwidthright h1 {
+    text-align: center;
+    color: #FCFEFF;
+
+    margin-bottom: 10px;
+}
+
+.mwidthright p {
+    text-align: center;
+    color: #FCFEFF;
+    margin-bottom: 15px;
+}
+.mwidthright form input{
+    width: 270px;
+    margin-left: 8px;
+    height: 25px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    padding-left: 10px;
+}
+.mwidthright form button{
+    background-color: #529252;
+    width: 80%;
+    height: 30px;
+    border: none;
+    color: white;
+    margin-left: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
